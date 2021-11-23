@@ -17,3 +17,9 @@ gulp.task('watch', () => {
     });
 
 })
+
+gulp.task('minifyjs', () => {
+    return gulp.src('js/*.js')
+    .pipe(minify())
+    .pipe(gulp.dest('js'))
+})

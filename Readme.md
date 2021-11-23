@@ -3,3 +3,4 @@
 
 ## COMMANDS TO BE RUN
     ## gulp watch (to start auto compilation on changes)
+    ## gulp minifyjs (to minify js files)
