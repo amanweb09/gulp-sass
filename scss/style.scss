@@ -1,0 +1,13 @@
+$red: "red";
+$skyBlue: "skyblue";
+
+.container {
+    height: 100vh;
+        h1 {
+            color: $skyBlue;
+            font-size: large;
+        };
+        h5 {
+            color: $red;
+        }
+}
